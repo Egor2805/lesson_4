@@ -1,0 +1,97 @@
+/*--- Подключаем шрифты ---*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit-Regular.woff2") format("woff2"),
+	url("..//fonts/Larsseit-Regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face{
+	font-family: "Larsseit";
+	src: url("//fonts/Larsseit-Medium.woff2") format("woff2"),
+	url("..//fonts/Larsseit-Medium.woff") format("woff");
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face{
+	font-family: "Larsseit";
+	src: url("..//fonts/Larsseit-Bold.woff2") format("woff2"),
+	url("..//fonts/Larsseit-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+
+
+.header-logo {
+	background-color: red;
+}
+.main-content {
+	font-family: "Larsseit";
+   font-weight: 400;
+}
+.main-content h1{
+	font-weight: 700;
+}
+.main-content h2{
+	font-weight: 700;
+}
+.main-content p{
+	color: red;
+}
+.content {
+font-family: "Lato";
+}
+.content h2{
+	font-weight: 900;
+}
+.content p{
+	font-weight: 700;
+	color: red;
+}
+.content-section {
+	font-family:'Circular Std';
+	font-weight: 700;
+	color: black;
+}
+.content-section h2{
+	font-weight: 900;
+
+}
+.content-section > p{
+	font-weight: 500;
+	color: violet;
+}
+.section {
+	font-family: "Lato";
+}
+.section h2{
+	font-weight: 900;
+}
+.section p{
+	font-weight: 700;
+	color: red;
+}
+.section span{
+	font-weight: 400;
+	color: blue;
+}
+.section-main {
+	font-family: "Larsseit";
+}
+.section-main h2{
+	font-weight: 700;
+}
+.section-main p{
+	font-weight: 500;
+	color: green;
+}
+.footer{
+	background-color: yellow;
+}
+
